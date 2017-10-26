@@ -52,7 +52,7 @@ class App extends Component {
 
         <div className="controls">
           { this.buildSelect() }
-          { this.buildButtons() }
+          <div className="buttons">{ this.buildButtons() }</div>
         </div>
 
       </div>

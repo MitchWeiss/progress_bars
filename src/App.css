@@ -4,6 +4,12 @@
 
 .selector {
   margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.buttons {
+  float: left;
 }
 
 .btn {
