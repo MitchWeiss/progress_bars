@@ -8,7 +8,7 @@ class App extends Component {
     this.state = {bars: [], buttons: [], loading: true, selected: 0};
   }
   componentDidMount() {
-    fetch('http://frontend-exercise.apps.staging.digital.gov.au/bars')
+    fetch('https://frontend-exercise.apps.staging.digital.gov.au/bars')
     .then(res => res.json())
     .then(data => {
       this.setState({...data, loading: false});
