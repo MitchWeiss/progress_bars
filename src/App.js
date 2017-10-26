@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProgressBar from './ProgressBar';
-import './App.css';
+import './css/App.css';
 
 class App extends Component {
   constructor(props) {

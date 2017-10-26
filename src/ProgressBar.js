@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './ProgressBar.css';
+import './css/ProgressBar.css';
 
 export default class ProgressBar extends Component {
   render() {
